@@ -1,0 +1,68 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* شريط التنقل العلوي */
+.navbar {
+    background-color: #888;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+/* القسم الرئيسي */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.large-content {
+    background-color: #444;
+    width: 68%;
+    height: 200px;
+}
+
+.right-sidebar {
+    background-color: #777;
+    width: 30%;
+    height: 200px;
+}
+
+/* شبكة المحتوى */
+.grid-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    background-color: #bbb;
+    width: calc(25% - 10px);
+    height: 100px;
+}
+
+/* القسم السفلي */
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    background-color: #ddd;
+    width: 48%;
+    height: 100px;
+}
